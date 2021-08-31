@@ -85,7 +85,7 @@ const Calculator = () => {
     const { displayValue } = state;
 
     request
-      .post("https://127.0.0.1:8000/calculator/evaluate")
+      .post("./calculator/evaluate")
       .set("Content-Type", "application/json")
       .send({ expression: displayValue })
       .end(function (err, res) {
