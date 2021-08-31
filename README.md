@@ -8,6 +8,8 @@
 
 The app will run by default on port 3000.
 
+Please make sure the backend server is running before proceeding to submit the request.
+
 ### Contact
 
 Kunal Choudhary (kunal.choudhary156@gmail.com)
