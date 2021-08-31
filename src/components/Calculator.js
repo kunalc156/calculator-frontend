@@ -86,7 +86,7 @@ const Calculator = () => {
 
     //had to hardcode as the proxy was not working.
     request
-      .post("http://127.0.0.1:8000/calculator/evaluate")
+      .post("https://127.0.0.1:8000/calculator/evaluate")
       .set("Content-Type", "application/json")
       .send({ expression: displayValue })
       .end(function (err, res) {
